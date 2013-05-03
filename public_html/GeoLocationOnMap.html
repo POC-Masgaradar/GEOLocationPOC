@@ -19,7 +19,7 @@ Click the allow button to let the browser find your location.
 function success(position) {
   var mapcanvas = document.createElement('div');
   mapcanvas.id = 'mapcontainer';
-  mapcanvas.style.height = '7000px';
+  mapcanvas.style.height = '700px';
   mapcanvas.style.width = '1200px';
   document.querySelector('article').appendChild(mapcanvas);
   var coords = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
